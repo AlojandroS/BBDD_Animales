@@ -63,7 +63,7 @@ mongoose.connect(DB_URL).then(async ()=> {
 .then(async ()=> {
 
  await Animales.insertMany(animales)
- console.log("Animales creados con EXITO");
+ console.log("Animales creados con EXITO")
 
 })
 .catch((error)=> console.log("Error subiendo ANIMALES",error))
